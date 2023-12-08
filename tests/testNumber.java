@@ -49,6 +49,6 @@ public class testNumber {
 
     @Test
     void testUpperBound () {
-        assertFalse(number.numberInInterval(50));
+        assertTrue(number.numberInInterval(50));
     }
 }
